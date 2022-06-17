@@ -60,6 +60,11 @@ export const Container = styled.div`
         p {
             margin-left: 10px;
             margin-right: 10px;
+            
+            @media screen and (max-width: 414px) {
+                font-size: 12.50px;
+            }
+            }
         }
     }
     
