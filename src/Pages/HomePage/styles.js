@@ -17,7 +17,7 @@ export const Container = styled.div`
         @media screen and (max-width: 414px) {
             width: 360px;
             height: 250px;
-            padding: 20px 20px;
+            padding: 20px 26px;
         }
     }
 
@@ -28,8 +28,9 @@ export const Container = styled.div`
         margin: 40px 70px;
 
         @media screen and (max-width: 414px) {
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-gap: 20px;
+            margin: 0px 10px;
         }
     }
 
@@ -40,6 +41,11 @@ export const Container = styled.div`
         border-radius: 15px;
         border: 2px solid #ff2800;
         cursor: pointer;
+
+        @media screen and (max-width: 414px) {
+            height: 270px;
+            width: 180px;
+        }
 
         &:hover {
             transition: all ease .2s;
@@ -64,6 +70,10 @@ export const Container = styled.div`
             height: 370px;
             width: 100%;
             border-radius: 12.50px;
+
+            @media screen and (max-width: 414px) {
+                height: 270px;
+            }
 
             &:hover {
                 transition: all ease .2s;
